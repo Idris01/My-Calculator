@@ -1,0 +1,46 @@
+h2{
+	text-align:center;
+	background-color:blue;
+	color:white;
+	
+}
+main{
+	padding:5px;
+	background-color:grey;
+}
+#display-oprnd1, #display-oprnd2{
+	background-color:rgb(96,191,186);
+	// width:100%;
+	text-align:left;
+	height:40px;
+	font-size:30px;
+	color:blue;
+	margin:10px;
+}
+#display-op{
+	height:20px;
+	width:100%;
+	margin-left:2px;
+}
+
+#input-container{
+	border:2px solid black;
+	background-color:rgb(96,191,186);
+	margin:10px;
+}
+
+#display2{
+	border:2px solid black;
+	background-color:rgb(223,228,237);
+	width:100%;
+	text-align:right;
+	height:50px;
+	font-size:30px;
+}
+.numb, .op, .func{
+	min-height:40px;
+	width:100%;
+}
+#calc-body{
+	max-width:400px;
+}

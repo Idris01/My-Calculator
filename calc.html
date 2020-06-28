@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="calc.css">
+	<script src="calc.js" type="text/javascript" defer></script>	
+</head>
+	<body>
+		<header><h2>Simple Calculator</h2></header>
+		
+		<main>
+		<div id="calc-body">
+		<div class="container">
+		<!-- input Display -->
+			<div class="row">
+			<div id="input-container">
+			<div class="row">
+			<div class="col-sm-12">
+				<label id="display-oprnd1"></label>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-12">
+			<label id="display-op"></label>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-12">
+			<label id="display-oprnd2"></label>
+			</div>
+			</div>
+			</div>
+			</div>
+		<!--Answer display -->
+			<div class="row">
+				<div class="col-sm-12">
+					<label id="display2">0</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3"><button  class="numb" value="1">1</button></div>
+				<div class="col-xs-3"><button class="numb" value="2">2</button></div>
+				<div class="col-xs-3"><button class="numb" value="3">3</button></div>
+				<div class="col-xs-3"><button class="numb" value="4">4</button></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-3"><button  class="numb" value="5">5</button></div>
+			<div class="col-xs-3"><button class="numb" value="6">6</button></div>
+			<div class="col-xs-3"><button class="numb" value="7">7</button></div>
+			<div class="col-xs-3"><button class="numb" value="8">8</button></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-3"><button  class="numb" value="9">9</button></div>
+			<div class="col-xs-3"><button class="numb" value="0">0</button></div>
+			<div class="col-xs-3"><button class="func" value="CL">CL</button></div>
+			<div class="col-xs-3"><button class="func" value="DEL">DEL</button></div>
+			</div>
+			<div class="row">
+			<div class="col-xs-3"><button class="op" value="+">+</button></div>
+			<div class="col-xs-3"><button class="op" value="-">-</button></div>
+			<div class="col-xs-3"><button  class="op" value="*">*</button></div>
+			<div class="col-xs-3"><button class="op" value="÷">÷</button></div>
+			</div>
+			
+			<div class="row">
+			<div class="col-xs-3"><button class="numb" value=".">.</button></div>
+			<div class="col-xs-3"><button class="func" value="ANS">ANS</button></div>
+			<div class="col-xs-6"><button class="func" value="=">=</button></div>
+			</div>
+		
+		</div>
+		</div>
+		</main>
+		</body>
+</html>
