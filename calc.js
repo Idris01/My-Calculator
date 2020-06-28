@@ -16,12 +16,22 @@ for(let i=0;i<keys.length; i++){
 	keys[i].addEventListener('click',function(){enterNum(keys[i].value)});
 }
 
+function getIndex(content, key){
+	for(let i=0;i<content.length;i++){
+		if(content[i].value===key){
+			return i;
+		}
+		if(i===content.length-1){
+			return -1;
+		}
+	}
+}
 
 function enterNum(keyPressed){
 	
-	if(numb.indexOf(keyPressed)>0){
+	if(getIndex(numb,keyPressed)>0){
 		//keyPressed is either a number or a dot
-		if(keyPressed==='.' && currentSide.indexOf('.')<0){
+		if(keyPressed==='.' && currentSide.indexf('.')<0){
 			if(currentSide===operand1.contentText){
 				operand1.contentText=operand1.contentText + '.';
 			}else{
